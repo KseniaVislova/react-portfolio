@@ -14,9 +14,16 @@
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  color: #f9f5ff;
+  text-decoration: none;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   cursor: pointer;
+  transition: all 1s;
+}
+
+.logo_active {
+  color: rgba(115, 244, 235, 0.5);
   transition: all 1s;
 }
 
@@ -53,7 +60,7 @@ code {
 }
 
 .logo:hover {
-  color: rgba(115, 244, 235, 0.5);
+  color: rgba(115, 244, 235, 1);
   transition: all 1s;
 }
 
